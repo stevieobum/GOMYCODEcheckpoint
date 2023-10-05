@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkpoint Project</title>
+</head>
+<body>
+  <!--header-->
+  <header>
+    <h1>Stevie Mario</h1>
+    <!--Nav-->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<!--main area-->
+  <main>
+    <!--About section-->
+      <section id="About">
+        <figure>
+        <img src="images/IMG_5376.jpg" alt="Stephen" width="400" height="400">
+        <figcaption>Stephen</figcaption>
+        </figure>
+        <p>I am Okoye Obumneme Stephen, an aspiring front-end website developer and a professional photographer.</p>
+      </section>
+
+        <!--Portfolio/ Work section-->
+      <section id="Work">
+        <h2>Some of my photography work</h2>
+        <img src="images/pexels-hayley-parker-6137776.jpg" width="250" height="250">
+        <img src="images/pexels-jose-antonio-gallego-vázquez-2167395.jpg" width="250" height="250">
+        <img src="images/pexels-leah-kelley-952590.jpg" width="250" height="250">
+        <img src="images/pexels-rov-camato-700413.jpg" width="250" height="250">
+        <img src="images/pexels-saidamir-mukhitdinov-11542282.jpg" width="250" height="250">
+        <video width="250" height="250" controls>
+          <source src="images/IMG_2539.MOV" type="video/mp4">
+        </video>
+      </section>
+        <!--Resume section-->
+      <section id="Resume">
+        <p>Click <a href="/resume/ObumnemeCV.docx" download="resume">here</a> to downlaod my Resume
+        </p>
+      </section>
+        <!--Contact section-->
+      <section id="Contact">
+        <div>
+          <form>
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <br>
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <br>
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="nigeria">Nigeria</option>
+              <option value="ghana">Ghana</option>
+              <option value="usa">USA</option>
+            </select>
+            <br>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+            <br>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+      </section>
+  </main>
+
+<!--footer-->
+  <footer>
+    <p>&copy;All rights reserved. 2023</p>
+  </footer>
+  
+</body>
+</html>
